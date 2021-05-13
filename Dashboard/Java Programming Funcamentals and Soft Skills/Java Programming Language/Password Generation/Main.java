@@ -84,30 +84,5 @@ class Main {
         } else {
             System.out.println("Invalid Security Code, Try Again!");
         }
-
-//        boolean b1 = checkSize(code);
-//        boolean b2 = checkMoreThanOneUpperCase(code);
-//        boolean b3 = checkOneOrMoreLowerCase(code);
-//        boolean b4 = checkOneOrMoreSpecialCharacter(code);
-//        boolean b5 = checkValidity(code);
-//        boolean b6 = checkOneOrMoreDigit(code);
-//
-//        if (b1 && b2 && b3 && b4 && b5 && b6) {
-//            System.out.println("Security Code Generated Successfully");
-//        } else {
-//            System.out.println("Invalid Security Code, Try Again!");
-//        }
-
-//        Pattern pattern = Pattern.compile("((?=.*[A-Z])(?=.*[a-z])(?=.*[@#*])(?=.*\\d))");
-//
-//        System.out.println("Generate your Security Code");
-//        String code = scanner.nextLine();
-//        Matcher matcher = pattern.matcher(code);
-//
-//        if (matcher.find() && code.length() >= 8) {
-//            System.out.println("Security Code Generated Successfully");
-//        } else {
-//            System.out.println("Invalid Security Code, Try Again!");
-//        }
     }
 }
